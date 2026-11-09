@@ -1,0 +1,37 @@
+{
+  // ===================== SHOW / HIDE SWITCHES (true = show, false = hide) =====================
+
+  // Banner at the very top of the main tabs (Home, Explore, Library, Profile). Always visible there.
+  "header": false,
+
+  // Banner just above the bottom tab bar (Home, Explore, Library, Profile). Always visible there.
+  "footer": true,
+
+  // Full-screen ad: after tapping "Use this template" on a template preview, before the editor opens.
+  "interstitial_template_use": true,
+
+  // Full-screen ad: after tapping "Save" in the editor, before the Save & share screen opens.
+  "interstitial_editor_save": false,
+
+  // Full-screen ad: after tapping a design on the Magic Design screen, before the editor opens.
+  "interstitial_magic_design": true,
+
+  // Full-screen ad: after tapping "Done" on the Save & share screen, before going back Home.
+  "interstitial_export_done": false,
+
+  // ===================== ADMOB AD UNIT IDs (one per slot) =====================
+  // Each key is "ads_" + the switch name above. Paste the AdMob ad unit ID between the quotes,
+  // for example "ca-app-pub-1234567890123456/1234567890". Use banner units for header/footer
+  // and interstitial units for the interstitial_* slots.
+  // "TEST" shows Google's test ads (safe while testing). Never click your own live ads.
+  "ads_code": {
+    "ads_header": "TEST",
+    "ads_footer": "TEST",
+    "ads_interstitial_template_use": "TEST",
+    "ads_interstitial_editor_save": "TEST",
+    "ads_interstitial_magic_design": "TEST",
+    "ads_interstitial_export_done": "TEST"
+  }
+}
+
+
